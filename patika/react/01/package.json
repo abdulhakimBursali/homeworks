@@ -1,0 +1,15 @@
+{
+  "name": "patika_01",
+  "version": "1.0.0",
+  "description": "\"patika.dev react patikası ilk bölüm çalışması\"",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node index"
+  },
+  "author": "aBursali",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.25.0"
+  }
+}
