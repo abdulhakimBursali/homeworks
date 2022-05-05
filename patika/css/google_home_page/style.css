@@ -1,0 +1,52 @@
+.container {
+  width: 80%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin: 0 auto;
+}
+
+.container > * {
+  text-align: center;
+}
+
+.container img {
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.top {
+  width: 100%;
+  background-color: beige;
+  padding: 10px;
+}
+
+.bottom {
+  display: flex;
+}
+
+.bottom div {
+  background-color: aquamarine;
+}
+
+.bottom .left {
+  flex-grow: 2;
+}
+
+.bottom .right {
+  flex-grow: 2;
+}
+
+.bottom .middle {
+  flex-grow: 1;
+  margin-right: 2px;
+  margin-left: 2px;
+  text-align: center;
+}
+
+.bottom .middle ul{
+    padding: 0;
+}
+
+.middle li {
+  list-style-type: none;
+}
