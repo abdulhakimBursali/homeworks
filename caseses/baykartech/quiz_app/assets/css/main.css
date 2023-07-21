@@ -1,0 +1,7 @@
+* body {
+    padding: 30px;
+}
+
+.results {
+    visibility: hidden;
+}

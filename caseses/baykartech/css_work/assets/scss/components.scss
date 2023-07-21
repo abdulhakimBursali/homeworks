@@ -1,0 +1,79 @@
+/** Button */
+.b-button {
+  border-color: $b-primary-color;
+  color: $b-primary-color;
+
+  &:hover {
+    border-color: $b-primary-color;
+    color: $b-primary-color;
+    background-color: inherit;
+  }
+
+  &:first-child:active {
+    border-color: $b-primary-color;
+    color: $b-primary-color;
+    background-color: inherit;
+  }
+
+  &:active {
+    border-color: $b-primary-color !important;
+    color: $b-primary-color !important;
+    background-color: inherit !important;
+  }
+}
+
+.b-button-white {
+  @extend .b-button;
+  border-color: #ffffff;
+  color: #ffffff;
+
+  &:hover {
+    border-color: #ffffff;
+    color: #ffffff;
+  }
+
+  &:first-child:active {
+    border-color: #ffffff;
+    color: #ffffff;
+  }
+
+  &:active {
+    border-color: #ffffff !important;
+    color: #ffffff !important;
+  }
+}
+
+/* Card */
+.b-card {
+  background-color: #0f172a;
+  color: #fff;
+  //box-shadow: 0 8px 7px 4px #FFFFFF;
+}
+
+.b-card .card-body img {
+  margin-right: 16px;
+}
+
+.b-card a {
+  display: block;
+}
+
+/* Vertical List*/
+.b-list-group a {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 38px;
+  color: #0f172a;
+}
+
+.b-list-group a.active {
+  background-color: #fff;
+  box-shadow: 0px 0px 4px 0px #00000012;
+  border-radius: 8px;
+  padding: 16px 0;
+}
+
+.b-list-group img {
+  margin: 0 16px;
+}
